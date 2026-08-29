@@ -1,7 +1,0 @@
-trigger:
-  - main
-pool:
-  vmImage: 'ubuntu-latest'
-steps:
-  - script: python -m unittest
-    displayName: 'Test Analytics'
